@@ -2,7 +2,7 @@
 
 #### Paleta de colores:
 
-     #74C8BA, #FED9C4, #FF9FA4, #E05B7E, #1B424E
+     #334364, #91B3CF, #FFFDE4, #DA8A8B, #343642
 
 
 ![color palette](assets/img/colorpalette.png)

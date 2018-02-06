@@ -1,0 +1,70 @@
+/* #334364, #91B3CF, #FFFDE4, #FFEFE0, #DA8A8B, #343642 */
+/*#38456E, #9BB5D4, #FFFDE7, #FFEFE3, #DD8D96, #393748 */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.row {
+  outline: 1px solid black;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.header {
+  background: -webkit-linear-gradient(top, #334364 0%,#343642 47%,#334364 100%);
+  color: #ffffff;
+  padding: 1em;
+  width: 100%;
+  height: 3.5em;
+  position: fixed;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-right: 10em;
+  text-align: right;
+}
+
+.header ul li {
+  float: left;
+  margin: .5em;
+}
+
+.header ul li:hover {
+  color: #FFEFE0;
+}
+
+.container {
+  padding-top: 3.5em;
+  margin: 0 2.5em;
+}
+
