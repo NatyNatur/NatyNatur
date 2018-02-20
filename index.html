@@ -2,53 +2,90 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Porfolio</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
   <link rel="stylesheet" href="assets/css/main.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 <body>
-  <nav class="header">
-    <ul>
-      <li>About</li>
-      <li>Works</li>
-      <li>Contact</li>
-    </ul>
-  </nav>
+  <div class="row" id="initialRow">
+    <nav class="col s1 sideNav fixed">
+      <div class="col s12 left navCont valign-wrapper">
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="left hide-on-med-and-down center-align">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skillsl">Skills</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav> <!-- cierro sideNav -->
+    <div class="row">
+    <div class="col s11 offset-s1 mainCont" id="home">
+      <div class="welcome valign-wrapper" id="particles-js">
+        <div class="center-align">
+          <h5>Hi visitor</h5>
+          <p>My name is Natalia Castro, also known as NatyNatur</p>
+          <p class="animated bounceInLeft">I'm a Front End Developer Jr!</p>
+        </div>
+      </div>
 
-  <div class="container">
-    <div class="first row">
-      <div class="col-3">
-        <p></p>
-      </div>
-      <div class="col-3">
-        <p></p>
-      </div>
-      <div class="col-3">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quasi sequi sit quaerat sed ullam voluptatum quod deleniti quos, earum iusto nulla labore vitae facilis. Aliquid eligendi, nihil dolores illum harum, eveniet dignissimos voluptatem perspiciatis illo doloribus iure amet laborum, sed quo explicabo quidem distinctio cumque. Atque mollitia consectetur voluptatibus!</p>
-      </div>
-      <div class="col-3">
-        <h3>Probando</h3>
-      </div>
-    </div> <!-- cierro .first -->
-    <div class="second row">
-      <div class="col-6">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur id, excepturi esse nam dolore in, dolorum accusamus, placeat soluta blanditiis, ab? Architecto expedita vitae tempora, cumque provident quia eius, totam quibusdam sint aliquid doloremque consectetur, molestiae saepe ullam iure mollitia.</p>
-      </div>
-      <div class="col-6">
-        <p>Acá iría una imagen</p>
-      </div>
-    </div> <!-- cierro .second -->
-    <div class="third row">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim minima ipsum deserunt debitis quasi laborum doloremque ut doloribus sint dolorem animi, necessitatibus tenetur tempore similique mollitia ea, facilis recusandae autem earum. Nostrum molestias animi a enim, quam, pariatur aliquam aspernatur iste recusandae error tempore magnam. Ipsa ex facere praesentium laboriosam, laudantium, eius, voluptates iure odio quaerat asperiores deleniti sed nisi ducimus perspiciatis nam debitis eveniet officiis soluta dolor! Nulla debitis ducimus explicabo mollitia, rerum magni pariatur, voluptatibus officia natus ipsum veniam tempore labore temporibus quam laboriosam inventore soluta necessitatibus quos ipsam recusandae accusamus expedita nam, quidem. Ut quaerat in soluta!</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure id repudiandae ut eligendi recusandae cumque temporibus, accusantium inventore ab rem laborum nesciunt numquam, fugit explicabo consequatur laboriosam aliquam magnam dicta.</p>
-    </div> <!-- cierro third -->
-    <div class="fourth row">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed necessitatibus aliquam praesentium optio illo fugiat iste officiis quibusdam voluptate. Beatae consectetur, iusto numquam nam ullam voluptatibus, ipsam atque cupiditate eligendi aut assumenda maxime non, reprehenderit porro illum quae, delectus vero.</p>
+      <section id="skills">
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              <h4>Skills</h4>
+               <div class="col s12">
+                <ul>
+                  <li><a class="btn-floating btn-large waves-effect waves-light btnSkills"><i class="fab fa-html5"></i></a></li>
+                  <li><a class="btn-floating btn-large waves-effect waves-light btnSkills"><i class="fab fa-css3-alt"></i></a></li>
+                  <li><a class="btn-floating btn-large waves-effect waves-light btnSkills"><i class="fab fa-js"></i></a></li>
+                  <li><a class="btn-floating btn-large waves-effect waves-light btnSkills"><i class="fab fa-git"></i></a></li>
+                  <li><a class="btn-floating btn-large waves-effect waves-light btnSkills"><i class="fab fa-github"></i></a></li>
+                </ul>
+              </div>
+              <div>
+                <h5>Frameworks</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> <!-- cierro #skills -->
+      <section id="works">
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              <h4>Works</h4>
+            </div>
+          </div>
+        </div>
+      </section> <!-- cierro #works -->
+      <section id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              <h4>Contact</h4>
+            </div>
+          </div>
+        </div>
+      </section> <!-- cierro #contact -->
     </div>
-  </div> <!-- cierro container row -->
-  <footer>
-    <div class="info">
-      Lorem ipsum dolor sit amet.
-    </div>
-  </footer>
+  </div>
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="assets/js/particles.js"></script>
 </body>
 </html>
