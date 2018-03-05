@@ -4,12 +4,24 @@
 body {
   font-family: 'Lato', sans-serif;
   color: #FFF;
+  background-color: #343642;
 }
 
 nav, footer {
   font-family: 'Caveat', cursive;
   background-color: #343642;
   padding: 0 5em;
+}
+
+#mobile-demo {
+  width: 10em;
+  background-color: #9BB5D4;
+}
+
+#mobile-demo > li > a {
+  font-size: 2em;
+  color: #FFF;
+  padding: 1em;
 }
 
 section {
@@ -33,6 +45,7 @@ h3 {
 
 #particles-js {
   padding: 0;
+  padding-bottom: 2em;
   height: 100vh;
   background-color: #343642;
 }
