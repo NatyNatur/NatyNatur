@@ -1,4 +1,4 @@
-particlesJS("particles-js", {
+{
   "particles": {
     "number": {
       "value": 80,
@@ -54,7 +54,7 @@ particlesJS("particles-js", {
     },
     "move": {
       "enable": true,
-      "speed": 5,
+      "speed": 6,
       "direction": "top-left",
       "random": true,
       "straight": false,
@@ -107,4 +107,4 @@ particlesJS("particles-js", {
     }
   },
   "retina_detect": true
-});
+}
