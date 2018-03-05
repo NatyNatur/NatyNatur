@@ -21,7 +21,10 @@ nav, footer {
 #mobile-demo > li > a {
   font-size: 2em;
   color: #FFF;
-  padding: 1em;
+}
+
+#sidenav-overlay {
+  z-index: 990;
 }
 
 section {
