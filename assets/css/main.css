@@ -1,5 +1,6 @@
 /* #334364, #91B3CF, #FFFDE4, #FFEFE0, #DA8A8B, #343642 */
 /*#38456E, #9BB5D4, #FFFDE7, #FFEFE3, #DD8D96, #393748 */
+/* new pink f48fb1 */
 
 body {
   font-family: 'Oswald', sans-serif;;
@@ -31,11 +32,11 @@ section {
   width: 100%;
   min-height: 100vh;
   padding: 3em 1em;
-  background-color: #334364;
+  background-color: #91B3CF;
 }
 
 section:nth-child(2n+1) {
-  background-color: #91B3CF;
+  background-color: #334364;
 }
 
 h3 {
@@ -43,7 +44,7 @@ h3 {
 }
 
 .langbtn {
-  background-color: #DD8D96;
+  background-color: #f48fb1 ;
 }
 
 #particles-js {
@@ -74,7 +75,7 @@ p {
 }
 
 .pinkstuff {
-  color: #DA8A8B;
+  color: #f48fb1 ;
   font-size: 4em;
 }
 
@@ -85,7 +86,7 @@ p {
 }
 
 a {
-  color: #DA8A8B;
+  color: #f48fb1 ;
 }
 
 footer {
