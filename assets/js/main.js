@@ -3,7 +3,6 @@ $(document).ready(function(){
   $("#btnEn").click(function(){
     $("#particles-js").fadeOut();
     $("#all").fadeIn("slow");
-    //$("#div3").fadeIn(3000);
     });
   $(".button-collapse").sideNav();
   $('.carousel').carousel();

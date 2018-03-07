@@ -2,7 +2,7 @@
 /*#38456E, #9BB5D4, #FFFDE7, #FFEFE3, #DD8D96, #393748 */
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oswald', sans-serif;;
   color: #FFF;
   background-color: #343642;
 }
@@ -39,7 +39,7 @@ section:nth-child(2n+1) {
 }
 
 h3 {
-  font-family: 'Caveat', cursive;
+  font-family: 'Caveat Brush', cursive;
 }
 
 .langbtn {
