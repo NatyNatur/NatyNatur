@@ -78,10 +78,6 @@ p {
   font-size: 4em;
 }
 
-.fab:hover {
-  font-size: 2em;
-}
-
 .cards {
   background-color: #343642;
   padding: 1em;
@@ -98,4 +94,12 @@ footer {
 footer > div > div> p {
   margin: 0;
   line-height: 2.5;
+}
+
+.contactIcons {
+  display: inline-flex
+}
+
+.contactIcons a {
+  margin: 1em 3em;
 }
