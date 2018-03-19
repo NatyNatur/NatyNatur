@@ -14,3 +14,8 @@ $('#btnES').click(function(){
 setInterval(function() {
     $('.carousel').carousel('next');
   }, 2000);
+
+  $('#goBack').click(function() {
+    $('#all').fadeOut();
+    $("#particles-js").fadeIn("slow");
+  })
