@@ -76,7 +76,11 @@ p {
 
 .pinkstuff {
   color: #f48fb1 ;
-  font-size: 4em;
+  font-size: 8em;
+}
+
+.pinkstuff.pcontact {
+	font-size: 5em;
 }
 
 .carousel {
