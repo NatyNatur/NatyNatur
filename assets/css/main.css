@@ -74,6 +74,17 @@ p {
   font-size: 1.1em;
 }
 
+#goBack {
+	display: inline-flex;
+	padding-left: 1em;
+}
+
+.starnn {
+	height: 1.5em;
+	margin: auto 0;
+}
+
+
 .pinkstuff {
   color: #f48fb1 ;
   font-size: 8em;

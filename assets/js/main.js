@@ -6,8 +6,9 @@ $(document).ready(function(){
     });
   $(".button-collapse").sideNav();
   $('.carousel').carousel();
-
+  
 })
+
 $('#btnES').click(function(){
   alert('Lo siento, aún no está disponible :(');
 })
@@ -18,4 +19,8 @@ setInterval(function() {
   $('#goBack').click(function() {
     $('#all').fadeOut();
     $("#particles-js").fadeIn("slow");
+  })
+
+  $(window).scroll(function() {
+    $(".giveMeaJob").fadeToggle( "slow", "linear");
   })
