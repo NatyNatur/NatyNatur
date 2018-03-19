@@ -79,6 +79,10 @@ p {
   font-size: 4em;
 }
 
+.carousel {
+	perspective: 100em;
+}
+
 .cards {
   background-color: #343642;
   padding: 1em;
