@@ -11,12 +11,16 @@ body {
 nav, footer {
   font-family: 'Caveat', cursive;
   background-color: #343642;
-  padding: 0 5em;
+	padding: 0 5em;
+}
+
+nav ul a {
+	font-size: 1.5em;
 }
 
 #mobile-demo {
   width: 10em;
-  background-color: #9BB5D4;
+  background-color: #00B8C8;
 }
 
 #mobile-demo > li > a {
@@ -32,11 +36,11 @@ section {
   width: 100%;
   min-height: 100vh;
   padding: 3em 1em;
-  background-color: #91B3CF;
+  background-color: #00B8C8;
 }
 
 section:nth-child(2n+1) {
-  background-color: #334364;
+  background-color: #343642;
 }
 
 h3 {
@@ -44,7 +48,7 @@ h3 {
 }
 
 .langbtn {
-  background-color: #f48fb1 ;
+  background-color: #00B8C8 ;
 }
 
 #particles-js {
@@ -71,7 +75,7 @@ h3 {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1.3em;
 }
 
 #goBack {
@@ -84,14 +88,21 @@ p {
 	margin: auto 0;
 }
 
-
-.pinkstuff {
-  color: #f48fb1 ;
-  font-size: 8em;
+.animated {
+	animation-duration: 2s;
 }
 
-.pinkstuff.pcontact {
+.cyanstuff {
+	color: #00B8C8;
+	font-size: 8em;
+}
+
+.cyanstuff.pcontact {
 	font-size: 5em;
+}
+
+#giveMeAJob {
+	font-size: 2em;
 }
 
 .carousel {
@@ -113,7 +124,8 @@ footer {
 }
 footer > div > div> p {
   margin: 0;
-  line-height: 2.5;
+	line-height: 2.5;
+	font-size: 1.5em;
 }
 
 #effects {
@@ -155,14 +167,14 @@ footer > div > div> p {
 	top: 0;
 	left: 0;
 	padding: 0;
-	background: #334364;
+	background: #343642;
 	color: #FFF;
 }
 
 .grid figcaption h3 {
 	margin: 0;
 	padding: 0;
-	color: #f48fb1;
+	color: #00B8C8;
 }
 /*
 .grid figcaption span:before {
@@ -174,7 +186,7 @@ footer > div > div> p {
 	padding: 5px 10px;
 	border-radius: 2px;
 	display: inline-block;
-	background: #9BB5D4;
+	background: #00B8C8;
 	color: #fff;
 }
 
